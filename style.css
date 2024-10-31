@@ -1,14 +1,17 @@
-.lolokrya
+:root {
+    --accnt-color:#2196F3;
+    --logo-color:#000000;
+    --text-color:#212121;
+}
+    .lolokrya
 {
     width: 1600px; /* Ширина квадрата */
     height: 600px; /* Высота квадрата */
     background-color: #2F303A; /* Цвет квадрата */
     top: 80px;
-
     font-size: 64px;
-
 }
-main > div > h1 
+main > section > h1 
 {
     color: rgb(255, 255, 255);
 }
