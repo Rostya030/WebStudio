@@ -28,26 +28,10 @@ main > section > h1
 #nya:hover {
     background-color: #2195f34e; /* Более тёмный синий при наведении */
 }
-.logitech {
-    color: var(--accent-color);
-    font-size: 44px;
-}
-.lolohacer {
-    color: var(--logo-color);
-    font-size: 44px;
-}
-.logitich {
-    color: var(--accent-color);
-    font-size: 24px;
-}
-.lolohaker {
-    color: var(--logo-color);
-    font-size: 24px;
-}
 .folout {
     color: var(--dddd-color);
 }
-.possibilities-li {
+.possibilities-h3 {
     font-family: Roboto;
 font-size: 14px;
 font-weight: 700;
@@ -57,4 +41,54 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 
+}
+.possibilities-p {
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.work-h2 {
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42.19px;
+letter-spacing: 0.03em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.comandblock {
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42.19px;
+letter-spacing: 0.03em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.comandblock-ul-li {
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.75px;
+letter-spacing: 0.03em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.comandblock-ul-p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
