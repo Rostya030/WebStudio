@@ -1,7 +1,8 @@
 :root {
-    --accnt-color:#2196F3;
+    --accent-color:#2196F3;
     --logo-color:#000000;
     --text-color:#212121;
+    --dddd-color: #000000a1;
 }
     .lolokrya
 {
@@ -16,7 +17,7 @@ main > section > h1
     color: rgb(255, 255, 255);
 }
 #nya {
-    background-color: #2196F3; /* Синий цвет */
+    background-color: var(--accent-color); /* Синий цвет */
     color: #ffffff; /* Белый цвет текста */
     border: none;
     padding: 10px 20px;
@@ -28,21 +29,32 @@ main > section > h1
     background-color: #2195f34e; /* Более тёмный синий при наведении */
 }
 .logitech {
-    color: #2196F3;
+    color: var(--accent-color);
     font-size: 44px;
 }
 .lolohacer {
-    color: #000;
+    color: var(--logo-color);
     font-size: 44px;
 }
 .logitich {
-    color: #2196F3;
+    color: var(--accent-color);
     font-size: 24px;
 }
 .lolohaker {
-    color: #000;
+    color: var(--logo-color);
     font-size: 24px;
 }
 .folout {
-    color: #000000a1;
+    color: var(--dddd-color);
+}
+.possibilities-li {
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.41px;
+letter-spacing: 0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
