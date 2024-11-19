@@ -4,7 +4,7 @@
     --text-color:#212121;
     --dddd-color: #000000a1;
 }
-    .lolokrya
+.lolokrya
 {
     width: 1600px; /* Ширина квадрата */
     height: 600px; /* Высота квадрата */
@@ -91,4 +91,41 @@ text-decoration-skip-ink: none;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+}
+.wep {
+    font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 30.52px;
+letter-spacing: 0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+    color: var(--logo-color);
+}
+.poslyga {
+    color: #ffffff;
+}
+.port-h2 {
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.buut-ver {
+    width: 125px;
+    height: 38px;
+    top: 174px;
+    left: 593px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    border: none;
+}
+.buut-ver:hover {
+    background: #2196F3;
 }
