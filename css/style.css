@@ -4,44 +4,60 @@
     --text-color:#212121;
     --dddd-color: #000000a1;
 }
+
+body {
+    font-style: 'Roboto';
+    font-family: 'inter';
+}
+
 .lolokrya
 {
-    width: 1600px; /* Ширина квадрата */
-    height: 600px; /* Высота квадрата */
-    background-color: #2F303A; /* Цвет квадрата */
+    width: 1600px; 
+    height: 600px; 
+    background-color: #2F303A;
     top: 80px;
     font-size: 64px;
 }
+
 main > section > h1 
 {
     color: rgb(255, 255, 255);
 }
+
 #nya {
-    background-color: var(--accent-color); /* Синий цвет */
-    color: #ffffff; /* Белый цвет текста */
+    background-color: var(--accent-color);
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
 }
+
 #nya:hover {
     background-color: #2195f34e; /* Более тёмный синий при наведении */
 }
+
 .folout {
     color: var(--dddd-color);
 }
+
 .possibilities-h3 {
     font-family: Roboto;
-font-size: 14px;
-font-weight: 700;
-line-height: 16.41px;
-letter-spacing: 0.03em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
+
+.possibilities-ul {
+    display: flex;
+    justify-content: center;
+}
+
 .possibilities-p {
     font-family: Roboto;
 font-size: 14px;
@@ -52,6 +68,7 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 }
+
 .work-h2 {
     font-family: Roboto;
 font-size: 36px;
@@ -62,6 +79,17 @@ text-align: center;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 }
+
+.work-list {
+    display: flex;
+    justify-content: center;
+}
+
+.work-pic {
+    width:  370;
+    height: 294;
+}
+
 .comandblock {
     font-family: Roboto;
 font-size: 36px;
@@ -72,16 +100,24 @@ text-align: center;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 }
+
+.comandblock-ul {
+    display: flex;
+    gap: 30px;
+}
+
 .comandblock-ul-li {
     font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 18.75px;
-letter-spacing: 0.03em;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
 }
+
 .comandblock-ul-p {
     font-family: Roboto;
     font-size: 16px;
@@ -92,20 +128,45 @@ text-decoration-skip-ink: none;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
-.wep {
+
+.logo {
     font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
-line-height: 30.52px;
-letter-spacing: 0.03em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
     color: var(--logo-color);
 }
+
+.logo:before {  
+    content: 'Web';
+    color: #007BFF;
+}
+
+.foot-logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--logo-color);
+}
+
+.foot-logo:before {  
+    content: 'Web';
+    color: #007BFF;
+}
+
 .poslyga {
     color: #ffffff;
 }
+
 .port-h2 {
     font-family: Roboto;
 font-size: 18px;
@@ -116,6 +177,7 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 }
+
 .buut-ver {
     width: 125px;
     height: 38px;
@@ -126,6 +188,10 @@ text-decoration-skip-ink: none;
     opacity: 0px;
     border: none;
 }
+
 .buut-ver:hover {
     background: #2196F3;
 }
+
+
+
