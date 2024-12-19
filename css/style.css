@@ -5,9 +5,33 @@
     --dddd-color: #000000a1;
 }
 
-body {
+head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
     font-style: 'Roboto';
     font-family: 'inter';
+    max-width: 1600px;
+}
+
+.meian, .fot {
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.work {
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.head-nav {
+    display: flex;
+    justify-content: center;
 }
 
 .lolokrya
@@ -19,9 +43,10 @@ body {
     font-size: 64px;
 }
 
-main > section > h1 
-{
+.lolo-h1  {
     color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    padding: 200px 452px 280px 452px ;
 }
 
 #nya {
@@ -71,13 +96,13 @@ text-decoration-skip-ink: none;
 
 .work-h2 {
     font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 42.19px;
-letter-spacing: 0.03em;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
 
 .work-list {
@@ -193,5 +218,50 @@ text-decoration-skip-ink: none;
     background: #2196F3;
 }
 
+.head {  
+    display: flex;   
+    justify-content: space-between;   
+    align-items: center;   
+    padding: 10px 20px;  
+    background-color: #f5f5f5;  
+    width: 1600px;
+    height: 80px;
+    flex-shrink: 0;
+}  
 
+.logo {  
+    font-family: Raleway;  
+    font-size: 26px;  
+    font-weight: 700;  
+    text-decoration: none;  
+    color: black;  
+    margin-left: 215px;  
+}  
 
+.logo:before {  
+    content: 'Web';  
+    color: #007BFF;   
+}  
+
+.head-nav > ul {  
+    display: inline-flex;  
+    gap: 30px;   
+    list-style: none;  
+    margin-left: 93px;  
+    padding: 0;  
+}  
+
+.contact-info {  
+    display: flex; /* Добавьте этот класс для выравнивания элементов по горизонтали */  
+    gap: 15px; /* Пробел между элементами */  
+    margin-right: 20px; /* Пробел справа, если нужен */  
+}  
+
+.contact-info a {  
+    text-decoration: none;  
+    color: blue; /* Синий цвет текста для ссылок */  
+}  
+
+.head-ul {  
+    display: flex;  
+}  

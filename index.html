@@ -3,38 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>T9</title>
+    <!-- уже незнаю какая тема поетому "трактор":-) -->
+    <title>Tractor</title>
+    <!-- нормолайз -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- шрифти -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- стулья (CSS) -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <a href="./index.html" class="logo">Studio</a>
-        <nav>
-            <ul>
-                <li> <a href="stydio.html" class="folout"> Студия </a> </li>
-                <li> <a href="portfolio.html" class="folout">Портфолио</a> </li>
-                <li> <a href="kontakti.html" class="folout"> Kонтакти </a> </li>
-            </ul>
-        </nav>
-        <ul>
-            <li> <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a> </li>
-            <li> <a href="tel:+380961111111" class="link">+38 096 111 11 11</a> </li>
-        </ul>
+    <header class="head">  
+        <a href="./index.html" class="logo">Studio</a>  
+        <nav class="head-nav">  
+            <ul class="head-ul">  
+                <li> <a href="stydio.html" class="folout">Студия</a> </li>  
+                <li> <a href="portfolio.html" class="folout">Портфолио</a> </li>  
+                <li> <a href="kontakti.html" class="folout">Контакты</a> </li>  
+            </ul>  
+        </nav>  
+        <div class="contact-info">
+          <ul>
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>  
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a> 
+          </ul>  
+        </div>  
     </header>
-    <main>
-        <!-- хз №1 -->
+    <main class="meian">
+        <!--  №1 -->
+       <div class="container">
         <section class="lolokrya">
-            <h1>
+            <h1 class="lolo-h1">
                 ЕФЕКТИВНI РIШЕННЯ ДЛЯ ВАШОГО БIЗНЕСУ
             </h1>
             <button type="button" id="nya">
                 <a href="./pay.html" class="poslyga">Замовити послугу</a></button>
         </section>
-        <!-- хз №2 -->
+        <!--  №2 -->
         <section class="possibilities">
             <ul class="possibilities-ul">
                 <li class="possibilities-li">
@@ -69,7 +77,7 @@
                 </li>
             </ul>
         </section>
-        <!-- хз №3 -->
+        <!--  №3 -->
         <section class="work">
             <h2 class="work-h2">
                 Чим ми займаэмося
@@ -86,7 +94,7 @@
                 </li>
             </ul>
         </section>
-        <!-- хз №4 -->
+        <!--  №4 -->
         <section class="comandblock">
             <h2 class="comandblock-h2">
                 Наша Команда
@@ -114,10 +122,10 @@
                 </li>
             </ul>
         </section>
+    |  </div>
     </main>
-    <!-- хз №5 чтоли насамом деле просто 
-     по метки когда кончается 1 из тем типо того)))) -->
-    <footer>
+    <!--  №5 -->
+    <footer class="fot">
       <div class="foot">
         <a href="./index.html" class="foot-logo">Studio</a>
         <address class="foot-adrs">
