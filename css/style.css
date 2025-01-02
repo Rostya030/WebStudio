@@ -12,6 +12,8 @@
 
 .body{
     font-family: "Roboto";
+    color: var(--bebrount-color-);
+
 }
 
 .container {
@@ -125,11 +127,11 @@ margin-right:auto;
     background-color: #2195f34e;
 }
 
-.possibilities {
+.alarm {
     margin-top: 94px;
 }
 
-.possibilities-h3 {
+.alarm-subtle {
     font-size: 14px;
     font-weight: 700;
     line-height: 16.41px;
@@ -138,15 +140,16 @@ margin-right:auto;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 
-.possibilities-ul {
+.alarm-list {
     display: flex;
     justify-content: center;
     /* margin-top: 94px; */
 }
 
-.possibilities-p {
+.alarm-text {
     color: var(--textp-color-);
     font-size: 14px;
     font-weight: 400;
@@ -157,6 +160,7 @@ margin-right:auto;
     text-decoration-skip-ink: none;
     width: 270px;
     margin-right: 30px;
+    padding: 10px;
 }
 
 .work-title {
@@ -198,24 +202,30 @@ margin-right:auto;
 }
 
 .team {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42.19px;
-    letter-spacing: 0.03em;
+    
+    background-color: var(--partybeb-color-);
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    background: var(--partybeb-color-);
+    display: flex; 
+    margin-bottom: 94px;
+}
+
+.team-h3 {
+    color: var(--text-color-);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+    letter-spacing: 0.48px;
+
 }
 
 .team-ul {
     display: flex;
     justify-content: center;
     gap: 30px;
+    background-color: var(--bebrount-color-);
 }
 
 .team-ul-li {
-
     font-size: 16px;
     font-weight: 500;
     line-height: 18.75px;
@@ -224,18 +234,17 @@ margin-right:auto;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     border-radius: 0px 0px 4px 4px;
-    background: #FFF;
+    background-color: var(--ttext-color-);
 }
 
 .team-ul-p {
-    
+    margin-top: 10px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 18.75px;
-    letter-spacing: 0.03em;
+    line-height: 1.18;
+    letter-spacing: 0.48px;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    color: var(--textp-color-);
 }
 
 .logo {
