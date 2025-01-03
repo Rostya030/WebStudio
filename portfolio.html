@@ -13,56 +13,115 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <a href="./index.html" class="logo">Studio</a>
-      <nav>
-        <ul> 
-            <li> <a href="stydio.html" class="folout" > Студия </a> </li>
-            <li> <a href="index.html" class="folout">Головна</a> </li>
-            <li> <a href="kontakti.html" class="folout"> Kонтакти </a> </li>
-        </ul>
-      </nav>
-        <div class="contact-info">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <span>+38 096 111 11 11</span>
+    <header class="header">
+        <div class="container header-container">
+          <a href="./index.html" class="header-logo">Studio</a>
+          <nav class="header-nav">
+            <ul class="header-list">
+              <li class="header-item">
+                <a href="./stydio.html" class="header-avatar">Студія </a>
+              </li>
+              <li class="header-item">
+                <a href="./portfolio.html" class="header-avatar"> Портфоліо</a>
+              </li>
+              <li class="header-item">
+                <a href="kontakti.html" class="header-avatar">Контакти </a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="header-items">
+            <li class="header-item">
+              <a href="mailto:info@devstudio.com" class="header-thumb"
+                >info@devstudio.com</a>
+            </li>
+            <li class="header-item">
+              <a href="tel:+380961111111" class="header-thumb"
+                >+38 096 111 11 11
+              </a>
+            </li>
+          </ul>
         </div>
-    </header>
+      </header>
+
     <main>
-     <h2>
-        Портфолио
-     </h2>
-     <div class="buut">
-        <ul>
-            <li> <button type="button" class="buut-ver"> Усi </button> </li>
-            <li> <button type="button" class="buut-ver"> Веб-Сайти </button> </li>
-            <li> <button type="button" class="buut-ver"> Додатоки </button> </li>
-            <li> <button type="button" class="buut-ver"> Дизайн </button> </li>
-            <li> <button type="button" class="buut-ver"> Маркетинг </button> </li>
-        </ul>
-     </div>
-    <div class="port">
-        <ul>
-            <li> <img src="./images.krakva/moc.png" alt="Техно-Кряк"> <h2 class="port-h2">Техно-Кряк</h2> <p>Веб-Сайт</p> </li>
-            <li> <img src="./images.krakva/nba.png" alt="NBA"> <h2 class="port-h2">NBA</h2> <p>Дизайн</p> </li>
-            <li> <img src="./images.krakva/seafood.png" alt="Seafood"> <h2 class="port-h2">Seafood</h2> <p>Додаток</p> </li>
-            <li> <img src="./images.krakva/prime.png" alt="Prime"> <h2 class="port-h2">Prime</h2> <p>Маркетинг</p> </li>
-            <li> <img src="./images.krakva/boxes.png" alt="Boxes"> <h2 class="port-h2">Boxes</h2> <p>Додаток</p> </li>
-            <li> <img src="./images.krakva/mnn.png" alt="Inspiration has no Borders"> <h2 class="port-h2">Inspiration has no Borders</h2> <p>Веб-Сайт</p> </li>
-            <li> <img src="./images.krakva/gazeta.png" alt="Limited Edition"> <h2 class="port-h2">Limited Edition</h2> <p>Дизайн</p> </li>
-            <li> <img src="./images.krakva/projectlab.png" alt="LAB"> <h2 class="port-h2">LAB</h2> <p>Маркетинг</p> </li>
-            <li> <img src="./images.krakva/minemoney.png" alt="Growing Business"> <h2 class="port-h2">Growing Business</h2> <p>Додаток</p> </li>
-        </ul>
-    </div>
+     <section class="buttons">
+        <div class="container">
+          <ul class="buttons-list">
+            <li class="buttons-items"> <button class="buttons-button"> Усi </button> </li>
+            <li class="buttons-items"> <button class="buttons-button"> Веб-Сайти </button> </li>
+            <li class="buttons-items"> <button class="buttons-button"> Додатоки </button> </li>
+            <li class="buttons-items"> <button class="buttons-button"> Дизайн </button> </li>
+            <li class="buttons-items"> <button class="buttons-button"> Маркетинг </button> </li>
+          </ul>
+
+          <ul class="buttons-gallery">
+            <li class="buttons-item">
+              <div class="buttons-div">
+                 <img class="buttons-photo" src="./images.krakva/moc.png" alt="Техно-Кряк"> <h2 class="buttons-h2">Техно-Кряк</h2> <p class="buttons-p" >Веб-Сайт</p>
+               </div>  
+                </li>
+            <li class="buttons-item">
+              <div class="buttons-div">
+                 <img class="buttons-photo" src="./images.krakva/nba.png" alt="NBA"> <h2 class="buttons-h2">NBA</h2> <p class="buttons-p" >Дизайн</p>
+               </div>  
+                </li>
+            <li class="buttons-item">
+              <div class="buttons-div">
+                 <img class="buttons-photo" src="./images.krakva/seafood.png" alt="Seafood"> <h2 class="buttons-h2">Seafood</h2> <p class="buttons-p" >Додаток</p>
+               </div>  
+                </li>
+            <li class="buttons-item">
+              <div class="buttons-div">
+                 <img class="buttons-photo" src="./images.krakva/prime.png" alt="Prime"> <h2 class="buttons-h2">Prime</h2> <p class="buttons-p" >Маркетинг</p>
+               </div>  
+                </li>
+            <li class="buttons-item">
+              <div class="buttons-div">
+                 <img class="buttons-photo" src="./images.krakva/boxes.png" alt="Boxes"> <h2 class="buttons-h2">Boxes</h2> <p class="buttons-p" >Додаток</p>
+               </div>  
+                </li>
+            <li class="buttons-item">
+              <div class="buttons-div">
+                 <img class="buttons-photo" src="./images.krakva/mnn.png" alt="Inspiration has no Borders"> <h2 class="buttons-h2">Inspiration has no Borders</h2> <p class="buttons-p" >Веб-Сайт</p>
+               </div>  
+                </li>
+            <li class="buttons-item">
+              <div class="buttons-div">
+                 <img class="buttons-photo" src="./images.krakva/gazeta.png" alt="Limited Edition"> <h2 class="buttons-h2">Limited Edition</h2> <p class="buttons-p" >Дизайн</p>
+               </div>  
+                </li>
+            <li class="buttons-item">
+              <div class="buttons-div">
+                 <img class="buttons-photo" src="./images.krakva/projectlab.png" alt="LAB"> <h2 class="buttons-h2">LAB</h2> <p class="buttons-p" >Маркетинг</p>
+               </div> 
+                </li>
+            <li class="buttons-item">
+              <div class="buttons-div">
+                 <img class="buttons-photo" src="./images.krakva/minemoney.png" alt="Growing Business"> <h2 class="buttons-h2">Growing Business</h2> <p class="buttons-p" >Додаток</p>
+               </div>  
+                </li>
+           </ul>
+        </div>
+    </section>
     </main>
-    <footer>
-        <div class="foot">
+
+    <footer class="foot">
+        <div class="container">
           <a href="./index.html" class="foot-logo">Studio</a>
           <address class="foot-adrs">
-              <ul class="foot-ul">
-                  <li class="foot-li"> <a class="foot-ul-li-a">м. Київ, пр-т Лесі Українки, 26</a> </li>
-                  <li class="foot-li"> <a class="foot-ul-li-a" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-                  <li class="foot-li"> <a class="foot-ul-li-a" href="tel:+380961111111">+38 096 111 11 11</a> </li>
-              </ul>
+            <ul class="foot-ul">
+              <li class="foot-li">
+                <a class="foot-ul-li-a">м. Київ, пр-т Лесі Українки, 26</a>
+              </li>
+              <li class="foot-li">
+                <a class="foot-ul-li-aa" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a>
+              </li>
+              <li class="foot-li">
+                <a class="foot-ul-li-aa" href="tel:+380961111111"
+                  >+38 096 111 11 11</a>
+              </li>
+            </ul>
           </address>
         </div>
       </footer>
