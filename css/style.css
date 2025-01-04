@@ -152,13 +152,10 @@ margin-right:auto;
 }
 
 .foot {
-
     background: #2F303A;
 }
 
 .foot-logo {
-    margin-top: 60px;
-    margin-left: 53px;
     font-family: 'Raleway';
     font-size: 26px;
     font-weight: 700;
@@ -169,12 +166,10 @@ margin-right:auto;
     text-decoration-skip-ink: none;
     color: var(--ttext-color-);
     display: inline-block;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .foot-ul-li-a {
-    margin-top: 20px;
-    margin-left: 53px;
     color: var(--ttext-color-);
     font-size: 14px;
     font-style: normal;
@@ -193,8 +188,7 @@ margin-right:auto;
     font-weight: 400;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
-    padding-bottom:9px;
-    margin-left: 53px;
+    padding-bottom: 9px;
 }
 
 .foot-ul-li-aa:last-child {
@@ -205,32 +199,18 @@ margin-right:auto;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
     padding-bottom: 9px;
-    margin-left: 53px;
 }
 
 .foot-logo:before {  
     content: 'Web';
     color: #007BFF;
 }
-
-/* .head {  
-    display: flex;   
-    justify-content: space-between;   
-    align-items: center;   
-    padding: 10px 20px;  
-    background-color: #f5f5f5;  
-    width: 1600px;
-    height: 80px;
-    flex-shrink: 0;
-}   */
-
 .header-logo {  
     font-family: 'Raleway';  
     font-size: 26px;  
     font-weight: 700;  
     text-decoration: none;  
-    color: black;  
-    margin-left: 215px;  
+    color: black;
 }  
 
 .header-logo:before {  
@@ -245,12 +225,12 @@ margin-right:auto;
 }
 .alarm-text{
     color: var(--textp-color-);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.71; 
-letter-spacing: 0.42px;
-width: 270px;
- margin-right: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    -height: 1.71; 
+    letter-spacing: 0.42px;
+    width: 270px;
+    margin-right: 10px;
 }
 .alarm-subtle{
     /* color:var(--); */
@@ -268,33 +248,38 @@ width: 270px;
 /* ================ work, work, work!!! ======================== */
 .work-title{
     color: var(--text-color);
-font-size: 36px;
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 1.08px;
-align-items: center;
-justify-content: center;
-margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 1.08px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
 }
+
 .work-pic{
     justify-content: center;
 }
+
 .work{
     display: flex;
     text-align: center;
     padding-bottom:94px;
 
 }
+
 .work-list{
 display: flex;
 gap: 30px;
 }
+
 /* ===============team============== */
 .team-div{
     padding-top:30px;
-       padding-bottom: 30px;
-       background-color: var(--aggretext-color);
-   }
+    padding-bottom: 30px;
+    background-color: var(--aggretext-color);
+}
+
 .team-pic{
     gap: 30px;
 }
@@ -360,6 +345,8 @@ letter-spacing: 0.48px;
 .buttons-list {
     display: flex;
     justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
 }
 
 .buttons-button {
@@ -371,8 +358,6 @@ letter-spacing: 0.48px;
     letter-spacing: 0.48px;
     border: none;
     border-radius: 5px;
-    margin-bottom: 50px;
-    margin-right: 8px;
     padding: 6px 22px 6px 22px;
 }
 
@@ -398,21 +383,19 @@ letter-spacing: 0.48px;
     line-height: 2;
     letter-spacing: 1.08px;
     background-color: var(--ttext-color-);
-    padding-left: 24px;
 }
 
 .buttons-p {
-    margin-top: 10px;
     color: var(--textp-color-);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.87;
     letter-spacing: 0.48;
     background-color: var(--ttext-color-);
-    padding-left: 24px;
     padding-bottom: 20px;
 }
 
 .buttons-div {
     outline: 1px solid var(--border-color-);
+    padding-left: 24px;
 }
