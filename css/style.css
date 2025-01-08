@@ -191,14 +191,14 @@ margin-right:auto;
     padding-bottom: 9px;
 }
 
-.foot-ul-li-aa:last-child {
+.foot-ul-li-aaa {
     color: rgba(255, 255, 255, 0.60);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
-    padding-bottom: 9px;
+
 }
 
 .foot-logo:before {  
@@ -277,7 +277,7 @@ gap: 30px;
 .team-div{
     padding-top:30px;
     padding-bottom: 30px;
-    background-color: var(--aggretext-color);
+    background-color: var(--ttext-color-);
 }
 
 .team-pic{
@@ -311,7 +311,7 @@ letter-spacing: 0.48px;
 .team{
    
     display: flex;
-    background-color: var(--fon-tim);
+    background-color: var(--bebrount-color-);
     text-align: center;
 
 }
