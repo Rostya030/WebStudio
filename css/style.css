@@ -17,6 +17,13 @@
 
 }
 
+* {
+   box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -259,6 +266,7 @@ margin-right:auto;
 
 .work-pic{
     justify-content: center;
+    box-sizing: calc((100% - 60px) / 3);
 }
 
 .work{
@@ -359,6 +367,10 @@ letter-spacing: 0.48px;
     border: none;
     border-radius: 5px;
     padding: 6px 22px 6px 22px;
+}
+
+.buttons-item {
+    box-sizing: calc((100% - 60px) / 3);
 }
 
 .buttons-button:hover {
