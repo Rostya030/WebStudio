@@ -325,7 +325,7 @@ letter-spacing: 0.48px;
 }
 .team-ul{
     display: flex;
-    background-color: var(--fon-tim);
+    background-color: var(--buisness-color-);
     text-align: center;
     gap: 30px;
 }
