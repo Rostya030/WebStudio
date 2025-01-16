@@ -228,8 +228,6 @@ img {
     font-weight: 400;
     height: 1.71; 
     letter-spacing: 0.42px;
-    width: 270px;
-    margin-right: 10px;
 }
 .alarm-subtle{
     font-size: 14px;
@@ -354,12 +352,16 @@ gap: 30px;
     gap: 30px;
 }
 
+.team-div {
+    border-radius: 0px 0px 4px 4px;
+}
+
 .team-item {
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 
-/* =====================1-2?========================= */
+/* ===================== 1-2 ========================= */
 .alarm{
     padding-bottom: 94px;
     padding-top: 94px;
@@ -370,13 +372,12 @@ gap: 30px;
     padding-bottom: 94px;
 }
 
-
-
 /* PORFOLIO */
 
 .buttons {
     padding-bottom: 94px;
     padding-top: 94px;
+    border-top: solid 1px black;
 }
 
 .buttons-list {
@@ -399,7 +400,7 @@ gap: 30px;
 }
 
 .buttons-item {
-    box-sizing: calc((100% - 60px) / 3);
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 .buttons-item:hover {
@@ -411,10 +412,13 @@ gap: 30px;
 .buttons-button:hover {
     background-color: var(--accent-color-);
     color: var(--ttext-color-);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
 .buttons-photo {
     display: flex;
+    width: 100%;
+    height: auto; 
 }
 
 .buttons-gallery {
@@ -430,6 +434,13 @@ gap: 30px;
     line-height: 2;
     letter-spacing: 1.08px;
     background-color: var(--ttext-color-);
+    color: #212121;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1.08px;
 }
 
 .buttons-p {
@@ -439,10 +450,10 @@ gap: 30px;
     line-height: 1.87;
     letter-spacing: 0.48;
     background-color: var(--ttext-color-);
-    padding-bottom: 20px;
+    margin-top: 4px;
 }
 
 .buttons-div {
     outline: 1px solid var(--border-color-);
-    padding-left: 24px;
+    padding: 20px 24px;
 }
