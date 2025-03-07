@@ -9,6 +9,7 @@
     --buisness-color-: #2F303A;
     --partybeb-color-:#F5F4FA;
     --border-color-: #EEE;
+    --afro-color-: #AFB1B8;
 }
 
 .body{
@@ -34,7 +35,6 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
-    
 }
 
 .header-list {
@@ -67,10 +67,15 @@ img {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.028px;
+    display: flex;
+    align-items: center;
 }
 
 .header-thumb:hover {
     color: var(--accent-color-);
+    .header-svg {
+        fill: var(--accent-color-);
+    }
 }
 
   .header-items{
@@ -85,7 +90,6 @@ img {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
-
 }
 .header-avatar:hover {
     color: var(--accent-color-);
@@ -456,4 +460,97 @@ gap: 30px;
 .buttons-div {
     outline: 1px solid var(--border-color-);
     padding: 20px 24px;
+}
+
+/* client */
+
+.client {
+    padding-top: 188px;
+    padding-bottom: 154px;
+}
+
+.client-h2 {
+    color: var(--text-color-);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
+.client-list {
+    margin-top: 66px;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.client-link {
+    border: 1px var(--afro-color-) solid;
+    border-radius: 4px;
+    padding: 32px 32px;
+}
+
+.client-icon {
+    fill: var(--afro-color-);
+    width: 106px;
+    height: 60px;
+}
+
+.client-link:hover {
+    border: 1px var(--accent-color-) solid;
+    .client-icon {
+        fill: var(--accent-color-);
+    }
+}
+
+/* SVG */
+
+/* header svg */
+
+.header-svg:nth-child(1) {
+    width: 16px;
+    height: 12px;
+    fill: var(--textp-color-);
+    margin-right: 10px;
+}
+
+.header-svg:nth-child(2) {
+    width: 10px;
+    height: 16px;
+    fill: var(--textp-color-);
+    margin-right: 10px;
+}
+
+/* main svg */
+
+.team-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--afro-color-);
+}
+
+.team-items {
+    gap: 10px;
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+.team-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.team-link:hover {
+    background-color: var(--accent-color-);
+    .team-icon {
+        fill: var(--ttext-color-);
+    }
 }
