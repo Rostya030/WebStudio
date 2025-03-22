@@ -61,11 +61,22 @@
       </div>
     </header>
     <main>
+      <!-- menu -->
+      <div class="menu">
+        <h2 class="menu-title">menu</h2>
+      <ul class="menu-list">
+        <li class="menu-item"><a class="menu-link" href="">посиланя1</a></li>
+        <li class="menu-item"><a class="menu-link" href="">посиланя2</a></li>
+        <li class="menu-item"><a class="menu-link" href="">посиланя3</a></li>
+        <li class="menu-item"><a class="menu-link" href="">посиланя4</a></li>
+        <li class="menu-item"><a class="menu-link" href="">посиланя5</a></li>
+      </ul>
+      </div>
       <!-- ЕФЕКТИВНI РIШЕННЯ ДЛЯ ВАШОГО БIЗНЕСУ -->
       <section class="buisness">
         <div class="container">
           <h1 class="buisness-title">ЕФЕКТИВНI РIШЕННЯ ДЛЯ ВАШОГО БIЗНЕСУ</h1>
-          <button type="button" class="buisness-button">
+          <button type="button" class="buisness-button" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -337,6 +348,7 @@
     <!--  №5 -->
     <footer class="foot">
       <div class="container">
+      <div>
         <a href="./index.html" class="foot-logo">Studio</a>
         <address class="foot-adrs">
           <ul class="foot-ul">
@@ -354,6 +366,64 @@
           </ul>
         </address>
       </div>
+        <div class="footer-social">
+          <h2 class="footer-tiitle">приєднуйтесь</h2>
+          <ul class="footer-items">
+            <li class="footer-elemet">
+              <a href="" class="footer-link">
+                <svg class="footer-icon">
+                  <use href="./images.krakva/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-elemet">
+              <a href="" class="footer-link">
+                <svg class="footer-icon">
+                  <use href="./images.krakva/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-elemet">
+              <a href="" class="footer-link">
+                <svg class="footer-icon">
+                  <use  href="./images.krakva/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-elemet">
+              <a href="" class="footer-link">
+                <svg class="footer-icon">
+                  <use href="./images.krakva/symbol-defs.svg#icon-in"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
+
+    <div class="window is-hidden" data-modal>
+    <div class="modal">
+      <button class="modal-close" type="button-close" data-modal-close>
+       Х
+      </button>
+      <h2 class="modal-title">
+        Залиште свої дані, ми вам передзвонимо
+      </h2>
+      <form class="modal-form">
+        <label class="modal-label">
+          Ім'я
+          <input class="modal-input" type="text" required>
+          
+          <svg class="header-svg">
+            <use href="./images.krakva/symbol-defs.svg#icon-person"> </use>
+          </svg>
+            
+
+        </label>
+      </form>
+    </div>
+    </div>      
+
   </body>
 </html>
