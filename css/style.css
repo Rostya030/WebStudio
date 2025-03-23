@@ -155,7 +155,7 @@ html {
 }
 
 .modal-input:hover {
-    border: var(--accent-color-);
+    border: 1px solid var(--accent-color-);
 }
 
 .modal-csvg {
