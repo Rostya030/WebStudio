@@ -405,25 +405,49 @@
     <div class="window is-hidden" data-modal>
     <div class="modal">
       <button class="modal-close" type="button-close" data-modal-close>
-       Х
+        <svg class="modal-csvg">
+          <use href="./images.krakva/symbol-defs.svg#icon-close"> </use>
+        </svg>
       </button>
       <h2 class="modal-title">
         Залиште свої дані, ми вам передзвонимо
       </h2>
       <form class="modal-form">
-        <label class="modal-label">
-          Ім'я
-          <input class="modal-input" type="text" required>
-          
-          <svg class="header-svg">
-            <use href="./images.krakva/symbol-defs.svg#icon-person"> </use>
-          </svg>
-            
-
-        </label>
+          <ul>
+            <li><label class="modal-label">
+              Ім'я
+              <input class="modal-input" type="text" required>
+              
+              <svg class="modal-svg1">
+                <use class="modal-use" href="./images.krakva/symbol-defs.svg#icon-person"> </use>
+              </svg>
+                
+    
+            </label></li>
+            <li><label class="modal-label">
+              Телефон
+              <input class="modal-input" type="text" required>
+              
+              <svg class="modal-svg2">
+                <use href="./images.krakva/symbol-defs.svg#icon-phone"> </use>
+              </svg>
+                
+    
+            </label></li>
+            <li><label class="modal-label">
+              Пошта
+              <input class="modal-input" type="text" required>
+              
+              <svg class="modal-svg3">
+                <use href="./images.krakva/symbol-defs.svg#icon-email"> </use>
+              </svg>
+                
+    
+            </label></li>
+          </ul>
       </form>
     </div>
     </div>      
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js" type="module"></script>
   </body>
 </html>
