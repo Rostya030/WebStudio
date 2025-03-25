@@ -711,6 +711,49 @@ display: flex;
 gap: 30px;
 }
 
+.work-div1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 224px;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.80);
+}
+
+.work-div2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 224px;
+    height: 70px;
+    width: 370px;
+    background: rgba(47, 48, 58, 0.80);
+}
+
+.work-div3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 224px;
+    height: 70px;
+    width: 370px;
+    background: rgba(47, 48, 58, 0.80);
+}
+
+.work-p {
+    color: var(--ttext-color-);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
 /* ===============team============== */
 .team-div{
     padding-top:30px;

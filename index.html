@@ -120,9 +120,9 @@
         <div class="container">
         <h2 class="work-title">Чим ми займаемся</h2>
         <ul class="work-list">
-          <li class="work-pic"><img src="./images.krakva/programming.webp" alt="comp" /></li>
-          <li class="work-pic"><img src="./images.krakva/marketing.webp" alt="tel" /></li>
-          <li class="work-pic"><img src="./images.krakva/paint-diz.webp" alt="tablet" /></li>
+          <li class="work-pic"> <div class="work-div1"><p class="work-p">Десктопні додатки</p></div> <img src="./images.krakva/programming.webp" alt="comp" /></li>
+          <li class="work-pic"> <div class="work-div2"><p class="work-p">Мобільні додатки</p></div> <img src="./images.krakva/marketing.webp" alt="tel" /></li>
+          <li class="work-pic"> <div class="work-div3"><p class="work-p">Дизайнерські рішення</p></div> <img src="./images.krakva/paint-diz.webp" alt="tablet" /></li>
         </ul>
       </div>
       </section>
@@ -413,66 +413,68 @@
       </div>
     </footer>
 
-    <!--     модалка
+    <!--   
+             модалка
              |     |
              |     |
              |     |
              |     |
-            \|/   \|/     -->
-        
+            \|/   \|/     
+    -->    
     <div class="window is-hidden" data-modal>
-    <div class="modal">
-      <button class="modal-close" type="button-close" data-modal-close>
-        <svg class="modal-csvg">
-          <use href="./images.krakva/symbol-defs.svg#icon-close"> </use>
-        </svg>
-      </button>
-      <h2 class="modal-title">
-        Залиште свої дані, ми вам передзвонимо
-      </h2>
-      <form class="modal-form">
+      <div class="modal">
+        <button class="modal-close" type="button" data-modal-close>
+          <svg class="modal-csvg">
+            <use href="./images.krakva/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <form class="modal-form" action="#" method="post">
           <ul class="modal-items">
-            <li class="modal-item"><label class="modal-label">
-              Ім'я
-              <input class="modal-input" type="text" required>
-              <svg class="modal-svg1">
-                <use class="modal-use" href="./images.krakva/symbol-defs.svg#icon-person"> </use>
-              </svg>
-            </label>
-          </li>
-            <li class="modal-item"><label class="modal-label">
-              Телефон
-              <input class="modal-input" type="text" required>
-              <svg class="modal-svg2">
-                <use href="./images.krakva/symbol-defs.svg#icon-phone"> </use>
-              </svg>
-            </label>
-          </li>
-            <li class="modal-item"><label class="modal-label">
-              Пошта
-              <input class="modal-input" type="text" required>
-              <svg class="modal-svg3">
-                <use href="./images.krakva/symbol-defs.svg#icon-email"> </use>
-              </svg>
-            </label>
-          </li>
             <li class="modal-item">
               <label class="modal-label">
-                Коментар
-                <textarea class="modal-textarea" placeholder="Введiть текст" required></textarea>
+                Ім'я
+                <input class="modal-input" type="text" name="name" required minlength="2" maxlength="50" placeholder="Ваше ім'я">
+                <svg class="modal-svg1">
+                  <use href="./images.krakva/symbol-defs.svg#icon-person"></use>
+                </svg>
               </label>
             </li>
             <li class="modal-item">
-              <div class="modal-divbox"> 
-              <input type="checkbox" class="modal-checkbox" required>
-              <p class="modal-p">Погоджуюся з розсилкою та приймаю</p>
-              <a class="modal-a" href="#">Умови договору</a>  
-            </div>
-              <button class="modal-button" type="button">Відправити</button>
+              <label class="modal-label">
+                Телефон
+                <input class="modal-input" type="tel" name="phone" required pattern="^\+?[0-9\s\-]{10,15}$" placeholder="Ваш телефон">
+                <svg class="modal-svg2">
+                  <use href="./images.krakva/symbol-defs.svg#icon-phone"></use>
+                </svg>
+              </label>
+            </li>
+            <li class="modal-item">
+              <label class="modal-label">
+                Пошта
+                <input class="modal-input" type="email" name="email" required placeholder="Ваш email">
+                <svg class="modal-svg3">
+                  <use href="./images.krakva/symbol-defs.svg#icon-email"></use>
+                </svg>
+              </label>
+            </li>
+            <li class="modal-item">
+              <label class="modal-label">
+                Коментар
+                <textarea class="modal-textarea" name="comment" required minlength="10" maxlength="300" placeholder="Ваш коментар"></textarea>
+              </label>
+            </li>
+            <li class="modal-item">
+              <div class="modal-divbox">
+                <input type="checkbox" class="modal-checkbox" name="agreement" required>
+                <p class="modal-p">Погоджуюся з розсилкою та приймаю</p>
+                <a class="modal-a" href="#">Умови договору</a>
+              </div>
+              <button class="modal-button" type="submit">Відправити</button>
             </li>
           </ul>
-      </form>
-    </div>
+        </form>
+      </div>
     </div>      
    <script src="./js/modal.js" type="module"></script>
   </body>
