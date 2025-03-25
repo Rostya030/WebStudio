@@ -413,41 +413,48 @@
         Залиште свої дані, ми вам передзвонимо
       </h2>
       <form class="modal-form">
-          <ul>
-            <li><label class="modal-label">
+          <ul class="modal-items">
+            <li class="modal-item"><label class="modal-label">
               Ім'я
               <input class="modal-input" type="text" required>
-              
               <svg class="modal-svg1">
                 <use class="modal-use" href="./images.krakva/symbol-defs.svg#icon-person"> </use>
               </svg>
-                
-    
-            </label></li>
-            <li><label class="modal-label">
+            </label>
+          </li>
+            <li class="modal-item"><label class="modal-label">
               Телефон
               <input class="modal-input" type="text" required>
-              
               <svg class="modal-svg2">
                 <use href="./images.krakva/symbol-defs.svg#icon-phone"> </use>
               </svg>
-                
-    
-            </label></li>
-            <li><label class="modal-label">
+            </label>
+          </li>
+            <li class="modal-item"><label class="modal-label">
               Пошта
               <input class="modal-input" type="text" required>
-              
               <svg class="modal-svg3">
                 <use href="./images.krakva/symbol-defs.svg#icon-email"> </use>
               </svg>
-                
-    
-            </label></li>
+            </label>
+          </li>
+            <li class="modal-item">
+              <label class="">
+                <textarea class="modal-textarea" placeholder="Введiть текст" required></textarea>
+              </label>
+            </li>
+            <li class="modal-item">
+              <div class="modal-divbox"> 
+              <input type="checkbox" class="modal-checkbox" required>
+              <p class="modal-p">Погоджуюся з розсилкою та приймаю</p>
+              <a class="modal-a" href="#">Умови договору</a>  
+            </div>
+              <button class="modal-button" type="button">Відправити</button>
+            </li>
           </ul>
       </form>
     </div>
     </div>      
-    <script src="./js/modal.js" type="module"></script>
+   <script src="./js/modal.js" type="module"></script>
   </body>
 </html>
