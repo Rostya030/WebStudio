@@ -176,8 +176,13 @@ html {
     fill: var(--accent-color-);
 }
 
-.modal-input:hover + svg {
+.modal-input:hover + svg{
     fill: var(--accent-color-);
+}
+
+.modal-input:focus {
+    fill: var(--accent-color-);
+    outline: none;
 }
 
 .modal-label:hover .modal-input {
@@ -238,6 +243,12 @@ html {
     width: 448px;
     height: 120px;
     resize: none;
+    margin-top: 4px;
+}
+
+.modal-textarea:focus {
+    border-color: var(--accent-color-);
+    outline: none;
 }
 
 .modal-divbox {
