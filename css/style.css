@@ -12,6 +12,13 @@
     --afro-color-: #AFB1B8;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid red;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -324,12 +331,7 @@ html {
 img {
     width: 100%;
 }
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    /* outline: 1px solid red; */
-}
+
 
 .header {
     padding-top: 24px;
@@ -962,6 +964,14 @@ gap: 30px;
 
 
 /* розсилка */
+
+.footer-subscribe {
+    position: absolute;
+    right: 103px;
+    bottom: 104px;
+
+}
+
 .footer-form {
     display: flex;
     justify-content: center;
