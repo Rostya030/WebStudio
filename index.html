@@ -21,6 +21,7 @@
       rel="stylesheet"
     />
     <!-- стулья (CSS) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css"/>
     <link rel="stylesheet" href="./css/style.css"/>
   </head>
@@ -86,28 +87,28 @@
         <div class="container">
         <ul class="alarm-list">
           <li class="alarm-item">
-            <h2 class="alarm-subtle">УВАГА ДО ДЕТАЛЕЙ</h2>
-            <p class="alarm-text">
+            <h2 class="alarm-subtle" data-aos="fade-up-right">УВАГА ДО ДЕТАЛЕЙ</h2>
+            <p class="alarm-text" data-aos="fade-up-right">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li class="alarm-item">
-            <h2 class="alarm-subtle">ПУНКТУАЛЬНІСТЬ</h2>
-            <p class="alarm-text">
+            <h2 class="alarm-subtle" data-aos="fade-up">ПУНКТУАЛЬНІСТЬ</h2>
+            <p class="alarm-text" data-aos="fade-up">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li class="alarm-item">
-            <h2 class="alarm-subtle">ПЛАНУВАННЯ</h2>
-            <p class="alarm-text">
+            <h2 class="alarm-subtle" data-aos="fade-up">ПЛАНУВАННЯ</h2>
+            <p class="alarm-text" data-aos="fade-up">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li class="alarm-item">
-            <h2 class="alarm-subtle">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
-            <p class="alarm-text">
+            <h2 class="alarm-subtle" data-aos="fade-up-left">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+            <p class="alarm-text" data-aos="fade-up-left">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -120,9 +121,9 @@
         <div class="container">
         <h2 class="work-title">Чим ми займаемся</h2>
         <ul class="work-list">
-          <li class="work-pic"> <div class="work-div1"><p class="work-p">Десктопні додатки</p></div> <img src="./images.krakva/programming.webp" alt="comp" /></li>
-          <li class="work-pic"> <div class="work-div2"><p class="work-p">Мобільні додатки</p></div> <img src="./images.krakva/marketing.webp" alt="tel" /></li>
-          <li class="work-pic"> <div class="work-div3"><p class="work-p">Дизайнерські рішення</p></div> <img src="./images.krakva/paint-diz.webp" alt="tablet" /></li>
+          <li class="work-pic" data-aos="fade-down-right"> <div class="work-div1"><p class="work-p">Десктопні додатки</p></div> <img src="./images.krakva/programming.webp" alt="comp" /></li>
+          <li class="work-pic" data-aos="flip-left"> <div class="work-div2"><p class="work-p">Мобільні додатки</p></div> <img src="./images.krakva/marketing.webp" alt="tel" /></li>
+          <li class="work-pic" data-aos="fade-up-left"> <div class="work-div3"><p class="work-p">Дизайнерські рішення</p></div> <img src="./images.krakva/paint-diz.webp" alt="tablet" /></li>
         </ul>
       </div>
       </section>
@@ -131,7 +132,7 @@
     <div class="container">
         <h2 class="team-h2">Наша команда</h2>
         <ul class="team-ul">
-          <li class="team-item ">
+          <li class="team-item" data-aos="fade-down-right">
             <img src="./images.krakva/egor.webp" class="team-pic" width="260" alt="igor" />
             <div class="team-div">
             <h3 class="team-h3">Ігор Дем'яненко</h3>
@@ -168,7 +169,7 @@
             </ul>
           </div>
           </li>
-          <li class="team-item">
+          <li class="team-item" data-aos="fade-down">
             <img src="./images.krakva/olga.webp" class="team-pic"  width="260" alt="olga" />
             <div class="team-div">
             <h3 class="team-h3">Ольга Рєпіна</h3>
@@ -205,7 +206,7 @@
             </ul>
             </div>
           </li>
-          <li class="team-item">
+          <li class="team-item" data-aos="fade-up">
             <img src="./images.krakva/mikolya.webp" class="team-pic"  width="260"alt="macl" />
             <div class="team-div">
             <h3 class="team-h3">Микола Тарасов</h3>
@@ -242,7 +243,7 @@
             </ul>
           </div>
           </li>
-          <li class="team-item">
+          <li class="team-item" data-aos="fade-up-left">
             <img src="./images.krakva/mihaial.webp" class="team-pic" width="260" alt="mixa" />
             <div class="team-div">
             <h3 class="team-h3">Михайло Єрмаков</h3>
@@ -477,5 +478,9 @@
       </div>
     </div>      
    <script src="./js/modal.js" type="module"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
