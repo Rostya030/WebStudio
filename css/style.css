@@ -40,6 +40,7 @@ html {
 
 .menu:hover {
     left: 0px;
+    transition-delay: 250ms;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
     .menu-title {
         opacity: 0;
@@ -80,6 +81,7 @@ html {
 }
 
 .menu-link:hover {
+    transition-delay: 250ms;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -171,6 +173,7 @@ html {
 
 .modal-input:hover {
     border: 1px solid var(--accent-color-);
+    transition-delay: 250ms;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -187,6 +190,7 @@ html {
 
 .modal-csvg:hover {
     fill: var(--accent-color-);
+    transition-delay: 250ms;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -421,6 +425,7 @@ img {
 
 .header-thumb:hover {
     color: var(--accent-color-);
+    transition-delay: 250ms;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
     .header-svg {
         fill: var(--accent-color-);
@@ -582,6 +587,7 @@ img {
 
 .footer-link:hover {
     background-color: var(--accent-color-);
+    transition-delay: 250ms;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -604,7 +610,7 @@ img {
 }
 
 .foot-ul-li-a {
-    color: var(--ttext-color-);
+    color: var (--ttext-color-);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -887,6 +893,7 @@ gap: 30px;
     outline: 1px solid var(--border-color-);
     background: var(--ttext-color-);
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+    transition-delay: 250ms;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1072,6 +1079,7 @@ gap: 30px;
 
 .team-link:hover {
     background-color: var(--accent-color-);
+    transition-delay: 250ms;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
     .team-icon {
         fill: var(--ttext-color-);
