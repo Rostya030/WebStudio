@@ -249,7 +249,7 @@ html {
     left: 52px;
     transition-property: fill;
     transition-duration: 350ms;
-    transition-timing-function: cubic-bezier(1,0,0,1);
+    transition-timing-function: cubic-bezier(1,0,0,0.1);
 }
 
 .modal-svg3:hover {
