@@ -1,0 +1,201 @@
+@import '../variables';
+
+.window {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.20);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+}
+
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    .modal {
+        transform: scale(0);
+    }
+}
+
+.modal {
+    width: 528px;
+    height: 581px;
+    position: relative;
+    border-radius: 4px;
+    padding: 40px;
+    transform: scale(1);
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background: $ttext-color;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+}
+
+.modal-close {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.modal-title {
+    color: $text-color;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+
+.modal-label {
+    color: $textp-color;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    transition-property: fill;
+    transition-duration: 350ms;
+    transition-timing-function: cubic-bezier(1,0,0,1);
+}
+
+.modal-input {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 10px; 
+    padding-left: 42px;
+    padding-right: 5px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    transition-property: border;
+    transition-duration: 350ms;
+    transition-timing-function: cubic-bezier(1,0,0,1);
+    &:hover {
+        border: 1px solid $accent-color;
+        transition-delay: 250ms;
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &:focus {
+        fill: $accent-color;
+        outline: none;
+    }
+}
+
+.modal-csvg {
+    width: 17px;
+    height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: fill;
+    transition-duration: 350ms;
+    transition-timing-function: cubic-bezier(1,0,0,1);
+    &:hover {
+        fill: $accent-color;
+        transition-delay: 250ms;
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.modal-input:hover + svg{
+    fill: $accent-color;
+}
+
+.modal-label:hover .modal-input {
+    border: 1px solid $accent-color;
+}
+
+.modal-svg1, .modal-svg2, .modal-svg3 {
+    width: 18px;
+    height: 18px;
+    fill: $text-color;
+    position: absolute;
+    transition-property: fill;
+    transition-duration: 350ms;
+    transition-timing-function: cubic-bezier(1,0,0,1);
+    &:hover {
+        fill: $accent-color;
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+.modal-svg1 { top: 96px; left: 52px; }
+.modal-svg2 { top: 168.9px; left: 52px; }
+.modal-svg3 { top: 242px; left: 52px; transition-timing-function: cubic-bezier(1,0,0,0.1); }
+
+.modal-textarea {
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    width: 448px;
+    height: 120px;
+    resize: none;
+    margin-top: 4px;
+    &:focus {
+        border-color: $accent-color;
+        outline: none;
+    }
+}
+
+.modal-divbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.modal-checkbox {
+    width: 16px;
+    color: $text-color;
+    height: 15px;
+    border: 2px solid $text-color;
+}
+
+.modal-p {
+    margin-right: 3px;
+    color: $textp-color;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+.modal-a {
+    color: $accent-color;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto
+}
+
+.modal-button {
+    width: 200px;
+    height: 50px;
+    background-color: $accent-color;
+    border: none;
+    border-radius: 4px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: $ttext-color;
+    &:hover {
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}

@@ -1,0 +1,26 @@
+@import '../variables';
+
+body {
+    font-family: "Roboto";
+    color: $bebrount-color;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.button {
+    color: black;
+    background-color: white;
+    box-shadow: none;
+    &:hover {
+        color: white;
+        background-color: black;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}

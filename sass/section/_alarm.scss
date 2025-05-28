@@ -1,0 +1,73 @@
+@import '../variables';
+
+// Пример стилей для alarm (замени на свои)
+.alarm {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background: $alarm-bg-color;
+
+    &__title {
+        font-size: 32px;
+        color: $accent-color;
+    }
+
+    &__desc {
+        font-size: 18px;
+        color: $text-color;
+    }
+}
+
+.alarm-text {
+    color: $textp-color;
+    font-size: 14px;
+    font-weight: 400;
+    height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+.alarm-subtle {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    margin-bottom: 10px;
+}
+
+.alarm-list {
+    display: flex;
+    gap: 25px;
+}
+
+.alarm-item::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: $partybeb-color;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.alarm-item:nth-child(1)::before {
+    background-image: url(../images.krakva/spytnic.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.alarm-item:nth-child(2)::before {
+    background-image: url(../images.krakva/chas.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.alarm-item:nth-child(3)::before {
+    background-image: url(../images.krakva/pc.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.alarm-item:nth-child(4)::before {
+    background-image: url(../images.krakva/cosmo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}

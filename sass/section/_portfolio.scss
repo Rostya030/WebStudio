@@ -1,0 +1,119 @@
+@import '../variables';
+
+.buttons {
+    padding-bottom: 94px;
+    padding-top: 94px;
+    border-top: solid 1px black;
+}
+
+.buttons-list {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
+.buttons-button {
+    color: $logo-color;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+    letter-spacing: 0.48px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 22px 6px 22px;
+    &:hover {
+        background-color: $accent-color;
+        color: $ttext-color;
+        box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.buttons-item {
+    flex-basis: calc((100% - 60px) / 3);
+    position: relative;
+    overflow: hidden;
+    &:hover {
+        outline: 1px solid $border-color;
+        background: $ttext-color;
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        .buttons-div1 {
+            transform: translateY(0%);
+            opacity: 1;
+        }
+    }
+}
+
+.buttons-div1 {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background: rgba(33, 150, 243, 0.90);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-property: transform, opacity;
+    transition-duration: 350ms;
+    transition-timing-function: cubic-bezier(1,0,0,1);
+    padding: 49px 24px 77px 24px;
+    transform: translateY(100%);
+}
+
+.buttons-photo {
+    display: flex;
+    width: 100%;
+    height: auto; 
+}
+
+.buttons-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.buttons-h2 {
+    color: $text-color;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+    background-color: $ttext-color;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+}
+
+.buttons-p {
+    color: $textp-color;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.87;
+    letter-spacing: 0.48;
+    background-color: $ttext-color;
+    margin-top: 4px;
+}
+
+.buttons-div {
+    outline: 1px solid $border-color;
+    padding: 20px 24px;
+}
+
+.buttons-div2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.buttons-p1 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.55;
+    letter-spacing: 0.54px;
+}
