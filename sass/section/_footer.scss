@@ -12,7 +12,7 @@
         gap: 70px;
     }
 
-    &-logo {
+    &__logo {
         font-family: 'Raleway';
         font-size: 26px;
         font-weight: 700;
@@ -29,7 +29,7 @@
         }
     }
 
-    &-ul-li-a {
+    &__ul-li-a {
         color: $ttext-color;
         font-size: 14px;
         font-style: normal;
@@ -41,8 +41,8 @@
         margin-top: 20px;
     }
 
-    &-ul-li-aa,
-    &-ul-li-aaa {
+    &__ul-li-aa,
+    &__ul-li-aaa {
         display: inline-block;
         color: rgba(255, 255, 255, 0.60);
         font-size: 14px;
@@ -54,7 +54,7 @@
     }
 }
 
-.footer-tiitle {
+.footer__tiitle {
     color: #FFF;
     font-size: 14px;
     font-weight: 700;
@@ -64,12 +64,12 @@
     margin-bottom: 20px;
 }
 
-.footer-items {
+.footer__items {
     display: flex;
     gap: 10px;
 }
 
-.footer-link {
+.footer__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -85,7 +85,7 @@
     }
 }
 
-.footer-icon {
+.footer__icon {
     width: 20px;
     height: 20px;
     fill: $ttext-color;
