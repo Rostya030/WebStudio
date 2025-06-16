@@ -1,9 +1,9 @@
 .client {
     padding-top: 94px;
     padding-bottom: 94px;
-}
 
-.client-h2 {
+
+    &__h2 {
     color: $text-color;
     text-align: center;
     font-family: "Roboto";
@@ -14,13 +14,13 @@
     letter-spacing: 1.08px;
 }
 
-.client-list {
+    &__list {
     margin-top: 50px;
     display: flex;
     gap: 30px;
 }
 
-.client-link {
+    &__link {
     border-radius: 4px;
     width: 170px;
     height: 92px;
@@ -32,14 +32,16 @@
     &:hover {
         border: 1px $accent-color solid;
         transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        .client-icon {
+        .client__icon {
             fill: $accent-color;
+            transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     }
 }
 
-.client-icon {
+    &__icon {
     fill: $afro-color;
     width: 106px;
     height: 60px;
+}
 }

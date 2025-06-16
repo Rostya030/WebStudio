@@ -1,0 +1,37 @@
+.work {
+    padding-bottom: 94px;
+    
+    &__title {
+    color: $text-color;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 30px;
+    }
+    
+    &__pic {
+        position: relative;
+    }
+
+    &__p {
+        color: $ttext-color;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+        padding-bottom: 27px;
+        padding-top: 27px;
+        background: rgba(47, 48, 58, 0.80);
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+}
