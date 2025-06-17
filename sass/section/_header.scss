@@ -1,6 +1,16 @@
 .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    @media screen and (min-width: 768px) {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    }
+
+    @media screen and (min-width: 1200px) {    
     padding-top: 24px;
     padding-bottom: 25px;
+    }
 
     &__container {
         display: flex;
@@ -9,19 +19,38 @@
 
     &__logo {
         color: $logo-color;
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 700;
         line-height: 1.38;
-        letter-spacing: 0.78px;
+        letter-spacing: 0.72px;
         align-items: center;
-        margin-right: 93px;
+        margin-right: auto;
         font-family: 'Raleway';
         text-decoration: none;
+    
+        @media screen and (min-width: 768px) {
+        margin-right: 88px;
+        }
+
+        @media screen and (min-width: 1200px) {    
+        font-size: 26px;
+        letter-spacing: 0.78px;
+        margin-right: 93px;
+        }
+
 
         &:before {
             content: 'Web';
             color: #007BFF;
             font-family: 'Raleway';
+        }
+    }
+
+    &__nav {
+        display: none;
+
+        @media screen and (min-width: 768px) {
+        display: block;
         }
     }
 
@@ -67,10 +96,21 @@
     }
 
     &__items {
-        display: flex;
-        align-items: center;
-        gap: 50px;
+        display: none;
+        align-items: start;
         margin-left: auto;
+
+        @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        }
+        
+        @media screen and (min-width: 1200px) {
+        flex-direction: row;
+        gap: 30px;
+        align-items: center;
+        }
     }
 
     &__avatar {
